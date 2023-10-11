@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap form 2</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.min.js"></script>
+
+  <style>
+    form{
+      background-color: yellow;
+      margin-left:250px;
+      margin-right: 250px;
+      padding-left: 70px;
+      padding-right: 70px;
+      padding-bottom: 50px;
+      border-radius: ;
+    }
+    body{
+      background-image: url("images/form image.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+
+</head>
+<body>
+<form action="" class="m-5">
+  <h1>Form Row</h1>
+<!---first row--->
+  <div class="row">
+    <div class="col">
+      <label for="fname"  class="form-label">Firstname</label>
+      <input type="text" id="fname" class="form-control" placeholder="First Name">
+    </div>
+
+  <!---second row--->
+    <div class="col">
+      <label for="lname" class="form-label">Lastname</label>
+      <input type="text" id="lname" class="form-control" placeholder="Last Name">
+    </div>
+  </div>
+  <br>
+
+  <label for="addre" class="form-label">Address</label>
+  <input type="text" id="addre" class="form-control" placeholder="Address">
+  <br>
+
+<!--- Third row-->
+  <div class="row">
+    <div class="col-5">
+    <label for="city" class="form-label">City</label>
+    <input type="text" id="city" class="form-control" placeholder="City">
+  </div>
+  
+  <div class="col-5">
+    <label for="state" class="form-label">State</label>
+    <select name="" id="state" class="form-select">
+      <option value=""disabled selected> Select state</option>
+      <option value="">Uganda</option>
+      <option value="">Tanzania</option>
+      <option value="">Ethiopia</option>
+    </select>
+  </div>
+
+    <!----pincode--->
+    <div class="class col-2">
+      <label for="pcode">Pin code</label>
+      <input type="text" id="pcode" class="form-select" placeholder="Pin Code">
+    </div>
+  </div>
+  <br>
+
+  <input type="checkbox"> I agree to Terms and Conditions <br><br>
+  <button type="submit" class="btn-primary">Submit</button>
+</form>
+  
+</form>
+
+</body>
+
+</html>
